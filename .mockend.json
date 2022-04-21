@@ -3,7 +3,12 @@
   "Tickets": {
     "subject": { "loremWords": { "minLength": 5, "maxLength": 10 } },
     "requester": { "regexp": "[A-Z][a-z]{5,20}" },
-    "requester_updated": { "dateTime": {} },
+    "requester_updated": {
+      "dateTime": {
+        "min": "2015-01-01T00:00:00Z",
+        "max": "2022-12-31T23:59:59Z"
+      }
+    },
     "group": { "string": ["Support", "Accounts", "Sales"] },
     "assignee": { "regexp": "[A-Z][a-z]{5,20}" }
   }
