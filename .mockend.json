@@ -1,6 +1,6 @@
 {
   "User": { "title": { "string": {} } },
-  "Tickets": {
+  "Ticket": {
     "subject": { "loremWords": { "minLength": 5, "maxLength": 10 } },
     "requester": { "regexp": "[A-Z][a-z]{5,20}" },
     "requester_updated": {
